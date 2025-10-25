@@ -1,11 +1,131 @@
 /* Add your CSS to this file */
 body {
     margin: 0;
-    font-size: 16px;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
 }
 
 .container {
     margin: 0 auto;
     max-width: 960px;
     width: 100%;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+header li {
+    list-style-type: none;
+    display: inline;
+}
+
+header a {
+    color: #6b7280;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #5A67D8;
+}
+
+img[alt="image1"] {
+    float: left;
+    margin-right: 80px;
+}
+
+.overview-hero {
+    background-color: #E2E8F0;
+    padding: 20px 80px 20px 20px;
+
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+}
+
+.card {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #E2E8F0;
+    border-radius: 5px;
+    box-shadow: #5A67D8 2px 2px 2px 0;
+    text-align: center;
+}
+
+.testing {
+    background-color: #4A5568;
+    color: white;
+}
+
+.testing .container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.btn {
+    background-color: #48BB78;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.newsletter {
+    justify-content: center;
+}
+
+.stories a,
+.stories h2 {
+    color: #5A67D8;
+}
+
+.stories h3 {
+    font-size: 18px;
+}
+
+.stories img {
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.stories article {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+img {
+    border-radius: 50%;
+    size: auto;
+}
+
+.newsletter {
+    background-color: #48BB78;
+    color: white;
+}
+
+.newsletter button {
+    background-color: #5A67D8;
+}
+
+footer {
+    background-color: #4A5568;
+    color: white;
+}
+
+.learn-about h2 {
+    color: #48BB78;
+    font-size: 24px;
+}
+
+.learn-about h3 {
+    color: #48BB78;
+    font-size: 21px;
 }
