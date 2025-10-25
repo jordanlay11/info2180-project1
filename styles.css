@@ -16,11 +16,17 @@ header .container {
     justify-content: space-between;
     align-items: center;
     background-color: white;
+    padding: 20px 0;
 }
 
 header li {
     list-style-type: none;
     display: inline;
+    font-size: 18px;
+}
+
+header h1 {
+    font-size: 18px;
 }
 
 header a {
@@ -174,4 +180,12 @@ footer {
 
 footer p {
     margin: 0;
+}
+
+.newsletter .message.success {
+    color: #0d4d28;
+}
+
+.newsletter .message.error {
+    color: #E53E3E;
 }
