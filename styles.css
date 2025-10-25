@@ -25,6 +25,9 @@ header li {
 
 header a {
     color: #6b7280;
+}
+
+a {
     text-decoration: none;
 }
 
@@ -39,8 +42,22 @@ img[alt="image1"] {
 
 .overview-hero {
     background-color: #E2E8F0;
-    padding: 20px 80px 20px 20px;
+    padding: 40px 0;
 
+}
+
+.learn-about h2 {
+    color: #48BB78;
+    font-size: 24px;
+}
+
+.learn-about h3 {
+    color: #48BB78;
+    font-size: 21px;
+}
+
+.learn-about {
+    padding: 30px;
 }
 
 .cards {
@@ -54,13 +71,14 @@ img[alt="image1"] {
     padding: 10px;
     border: 1px solid #E2E8F0;
     border-radius: 5px;
-    box-shadow: #5A67D8 2px 2px 2px 0;
+    box-shadow: #5A67D8 0px 2px 2px 0;
     text-align: center;
 }
 
 .testing {
     background-color: #4A5568;
     color: white;
+    padding: 5px 0 40px 0;
 }
 
 .testing .container {
@@ -68,16 +86,24 @@ img[alt="image1"] {
     grid-template-columns: auto auto;
     grid-gap: 20px;
     align-items: center;
+    padding: 60px 0;
 }
 
 .btn {
     background-color: #48BB78;
+    color: white;
     border-radius: 5px;
     padding: 10px 20px;
+    border: 0;
 }
 
 .newsletter {
     justify-content: center;
+    padding: 60px 0;
+}
+
+.stories {
+    padding: 60px 0;
 }
 
 .stories a,
@@ -109,23 +135,43 @@ img {
 .newsletter {
     background-color: #48BB78;
     color: white;
+    padding: 40px 400px;
+}
+
+.newsletter input {
+    padding: 20px;
+    border-radius: 5px;
+    border: 0;
+    margin-right: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    margin-bottom: 0;
+}
+
+.newsletter .form-group {
+    width: 100%;
 }
 
 .newsletter button {
     background-color: #5A67D8;
+    width: 50%;
+    padding: 20px;
 }
 
 footer {
     background-color: #4A5568;
     color: white;
+    padding: 30px;
 }
 
-.learn-about h2 {
-    color: #48BB78;
-    font-size: 24px;
-}
-
-.learn-about h3 {
-    color: #48BB78;
-    font-size: 21px;
+footer p {
+    margin: 0;
 }
